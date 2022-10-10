@@ -4,11 +4,11 @@ import "fmt"
 
 func main() {
 
+	x, y := 3, 4
 
-	x,y := 3,4
-	sum := fmt.Println("Sum:", x + y)
-	
-
-	
+	ADD := x + y
+	SUB := x - y
+	fmt.Printf("Their add: %v\n", ADD)
+	fmt.Printf("their sub: %v\n", SUB)
 
 }
